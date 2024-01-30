@@ -1,0 +1,28 @@
+#define _CRT_SECURE_NO_WR
+#include<stdio.h>
+int main() {
+	/////*int a = 10;
+	////int b = 20;
+	////int c = a + b;
+	////a = 30;
+	////b = b + 1;
+
+	////printf("%d", a);*/
+
+	////int num;
+	////scanf("%d", &num);
+	////printf("%d", num);
+	//printf ("%d",sizeof(int));
+	
+	/*for (int i = 0; i < 10; i++) {
+		printf("%d", i);
+	}
+
+	int num = -10;
+	while (num < 10) {
+		printf("%d", num);
+		num = num + 2;
+	}*/
+
+	return 0;
+}
