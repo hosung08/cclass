@@ -1,0 +1,175 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+int main({
+
+	/*+ : 더하기
+	- : 빼기
+	* : 곱하기
+	/ : 나누기
+	% : 나머지
+
+	<<, >> : 시프트
+
+	== : 서로 같다
+	!= : 서로 다르다
+	< > <= >= : 부등식
+	&&  : 두 조건이 모두 참일때 참
+	|| : 주 조건의 하나 이상이 참일때 참
+	! : not*/
+
+
+	//자료형
+	// int : 정수형
+	//float, double , long : 실수형
+	//char : 문자
+	//string : 문자열
+	//bool, boolean : 논리형
+	//sizeof(자료형); //자료형의 바이트 값을 반환
+
+
+
+	//변수
+	//자료형 변수 아름 = 값;
+	//int a = 10;
+	//int b = 20;
+	//int c, d = 30, e; // 변수의 다중선언
+
+	// a= 30; //위에서 이미 변수 a를 선언했기 떄문에, 이후에는 접근 할 때 자료형의 명시가 필요
+
+	/*출력함수
+
+	printf(출력값);
+	printf("hello world");*/
+
+	// 다중출력 ㄱㄴ
+
+
+
+	/*출력타입(자료형)
+
+	format type
+	%d : 정수값 출력타입
+	%f : 실수값 출력타입
+	%c : 문자 출력타입
+	%s : 문자열 출력타입*/
+
+	/*제어문 : 조건문 , 반복문
+
+	조건문  : if ,else ,else if*/
+
+
+	/*반복문 
+	for , while , do while
+
+	(for 문)
+		for (int i = 0; i < 10; i++) {
+			printf("hello world! %d\n", i);
+	}
+
+
+	(2중 for문)
+		for (int i = 0; i < 10; i++) {
+
+			for (int j = 0; i < 10; i++) {
+				printf("//////////",i,j)
+			}
+		}
+
+	(while문)
+
+	int a = 0;
+	while (a != 20)
+	{
+		a++;
+		printf("while 반복 %d\n", a);
+	}
+
+
+	for : 반목 횟수가 정해져 있을때
+	while : 반복 조건이 있을 떄
+		{
+
+		}*/
+
+	/*(do while문)
+	
+
+	do
+	{
+		printf("%d", a);
+		a -= 22;
+	} while (a > -10);
+	{
+
+	}*/
+
+
+
+
+	//for (int i = 0; i < 10; i++)
+	//{
+	//	if (i == 4) {
+	//		break; //반복문 정지 함수
+
+	//	}
+	//	printf("%d\n", i);
+	//}
+
+
+
+	//for (int i = 0; i < 10; i++)
+	//{
+	//	if (i == 4) {
+	//		continue;//반복문 재시작 함수
+
+	//	}
+	//	printf("%d\n", i);
+	//}
+
+
+	//for (int i == 0; i < 3; i++) {
+	//	for (int j == 0; j < 4; i++) {
+	//		if (i + j == 2) {
+	//			break; //제일 안쪽에 대응되는 반목문이 멈춘다, 즉 i를 이용한 for 문은 계속 작동된다
+	//		}
+	//		printf("%d, %d\n", i, j);
+	//	}
+	//}
+
+
+
+//
+//배열
+//자료형 변수이름[크기];
+//int a[10];
+//print("%d", a[0];) // 초기화 하지 않은 배열은 쓰레기 값을 가지고 있다.
+//
+//for (int i = 0; i < 10; i++) {
+//	printf("%d\n",a[i])
+//}
+//
+//
+//int ary[10] = { 0 }; //배열 선언의 단계에서 값을 초기화
+//int ary2[10] = { 1,2,3,4, }; //배열 선언 일부분만 값을 정해서 초기화
+//for (i = 0; i < 10; i++) {
+//	printf("/////////", ary[i], ary[i]);
+//}
+//
+//ary[2] = 10; //배열의 특정위치에 접근, 값 변경
+//ary[2] = ary2[4] + ary2[6] * ary2[7] //연산
+//
+//for (int i = 0; i < 10; i++) {
+//	printf("//////", ary2[i]);
+//}
+//
+//	return 0;
+//	}
+
+
+//입력함수 쓸땐 
+//#define _CRT_SECURE_NO_WARNINGS
+//scanf
+
+
+
+
